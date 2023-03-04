@@ -11,9 +11,9 @@ void setup() {
 void loop() {
 
 digitalWrite(7,HIGH);// turn relay ON
-delay(5000);// keep it ON for 5 seconds
+delay(3000);// keep it ON for 5 seconds
 
 digitalWrite(7, LOW);// turn relay OFF
-delay(5000);// keep it OFF for 5 seconds
+delay(3000);// keep it OFF for 5 seconds
 
 }
